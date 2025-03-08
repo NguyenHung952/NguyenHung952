@@ -1,10 +1,26 @@
-- 👋 Hi, I’m @NguyenHung952
-- 👀 I’m interested in technology
-- 🌱 I’m currently learning Networking
-- 💞️ I’m looking to collaborate on computer
-- 📫 How to reach me linktr.ee/nguyenhung0905
 
-<!---
-NguyenHung952/NguyenHung952 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+---
+
+# 👋 Hi, I’m **Nguyen Hung** (@NguyenHung952)  
+
+### 👨‍🔧 About Me  
+- 📡 **Electronics & Telecommunications Student**  
+- 🌱 Currently learning **Networking, Embedded Systems & IoT**  
+- ⚡ Passionate about **Wireless Communications, Signal Processing & AI in Telecom**  
+- 🔍 Looking to collaborate on **Electronics, Networking & IoT projects**  
+- 🎯 Always eager to learn & innovate in **Telecommunications & Automation**  
+
+### 🔧 **Tech & Skills**  
+📡 **Networking & Telecommunications:** Cisco, RF, Optical Fiber  
+🔌 **Embedded Systems:** Arduino, ESP8266, Raspberry Pi  
+💻 **Programming:** Python, C, MATLAB  
+📊 **Signal Processing & IoT:** DSP, Wireless Protocols, IoT Security  
+
+### 📫 **Let's Connect!**  
+🌐 Linktree: [linktr.ee/nguyenhung0905](https://linktr.ee/nguyenhung0905)  
+📩 Email: _nguyenhung09052002@gmail.com_  
+
+---
+
+✨ **"Bringing connectivity & intelligence to the future of communications."** 🚀  
+

@@ -1,59 +1,88 @@
-# AI Presentation SaaS — Scale & Monetization Ready
+# 👨‍💻 NGUYỄN NGỌC HÙNG  
+**Electronics & Telecommunications Intern**
 
-Nâng cấp tập trung vào scale, tối ưu chi phí AI, và mô hình kiếm tiền.
+📍 Ho Chi Minh City, Vietnam  
+📧 nguyenhung09052002@gmail.com  
+📞 0969894095  
+🔗 Portfolio: https://linktr.ee/nguyenhung0905  
 
-## Monetization & Billing
-- Credit system: user bị trừ credit khi generate/rewrite.
-- Plan tiers:
-  - Free: 10 credits/day (daily reset)
-  - Pro: unlimited
-- Endpoints dùng auth JWT để gắn usage theo user.
+---
 
-## Analytics
-- Track usage events: generate, rewrite, save, export.
-- API `GET /api/analytics` trả summary theo user.
+## 🎯 Career Objective
+Motivated Electronics – Telecommunications student seeking an internship position to apply theoretical knowledge into real-world projects.
 
-## Cost Optimization
-- Semantic cache key theo `topic + style + slide_count + language + preference`.
-- Nếu trùng truy vấn sẽ trả cache.
+Interested in:
+- Circuit design
+- Microcontroller programming
+- Signal measurement  
+- Communication systems  
 
-## Preference Learning
-- Bảng `user_preferences` lưu style/tone/avg slide length.
-- Pipeline inject preference vào generation style.
+Goal: Develop into a specialized electronics engineer while gaining hands-on experience in a professional technical environment.
 
-## New APIs
-- `POST /api/auth/login`
-- `POST /api/generate`
-- `POST /api/generate/stream`
-- `POST /api/rewrite`
-- `POST /api/save`
-- `GET /api/projects`
-- `GET /api/project/{id}`
-- `GET /api/share/{id}`
-- `GET /api/analytics`
+---
 
-## Realtime Collaboration
-- WebSocket `/ws/projects/{project_id}`
-- Live sync + shared cursors + basic conflict resolution (last-write-wins).
+## 🎓 Education
+**Industrial University of Ho Chi Minh City (IUH)**  
+*Electronics and Telecommunications Engineering*  
+📅 2020 – Expected 2027  
 
-## Deployment
-- `Dockerfile`
-- `docker-compose.yml`
-- `deploy/nginx.conf`
-- GitHub Actions CI: compile backend + docker build
+---
 
-## Frontend Conversion
-- Added landing page with CTA at `frontend/src/pages/landing/LandingPage.tsx`.
+## 💼 Work Experience
 
-## Run locally
-```bash
-cd backend
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-uvicorn main:app --reload --port 8000
+### 🎨 Designer — MXstoreusa  
+📅 2021 – 2024  
+- Designed and edited 100+ clothing products  
+- Developed branding visuals and product styles  
+- Collaborated with team to refine logos and color schemes  
+- Uploaded and managed product listings  
 
-cd ../frontend
-npm install
-npm run dev
-```
+---
+
+### 🗂 Data Entry Collaborator — FSI Company  
+📅 2024 – 2025  
+- Organized and classified documents following standard workflows  
+- Scanned and managed file naming systems  
+- Verified scanned data accuracy  
+- Entered and validated data consistently  
+
+---
+
+## ⚙️ Skills
+
+### 🧠 Hard Skills
+- Content creation  
+- Video editing (CapCut)  
+- Canva design  
+
+### 🤝 Soft Skills
+- Communication  
+- Teamwork  
+- Critical thinking  
+- Time management  
+- Adaptability  
+- Responsibility & proactiveness  
+
+---
+
+## 📜 Certifications
+- Google Workspace Specialization (2024)  
+- Google Digital Marketing & E-commerce (2024)  
+- Microsoft 365 Fundamentals (2024)  
+- Google Ads Measurement Certification (2024)  
+- TOEIC 720/990 (2025)  
+
+---
+
+## 🚀 Interests
+- Embedded systems  
+- IoT & communication technologies  
+- Digital content & media  
+
+---
+
+## 📌 Notes
+This repository contains projects, experiments, and learning materials related to:
+- Electronics & Telecommunications  
+- IoT systems  
+- Programming & automation  

@@ -1,26 +1,59 @@
+# AI Presentation SaaS — Scale & Monetization Ready
 
----
+Nâng cấp tập trung vào scale, tối ưu chi phí AI, và mô hình kiếm tiền.
 
-# 👋 Hi, I’m **Nguyen Hung** (@NguyenHung952)  
+## Monetization & Billing
+- Credit system: user bị trừ credit khi generate/rewrite.
+- Plan tiers:
+  - Free: 10 credits/day (daily reset)
+  - Pro: unlimited
+- Endpoints dùng auth JWT để gắn usage theo user.
 
-### 👨‍🔧 About Me  
-- 📡 **Electronics & Telecommunications Student**  
-- 🌱 Currently learning **Networking, Embedded Systems & IoT**  
-- ⚡ Passionate about **Wireless Communications, Signal Processing & AI in Telecom**  
-- 🔍 Looking to collaborate on **Electronics, Networking & IoT projects**  
-- 🎯 Always eager to learn & innovate in **Telecommunications & Automation**  
+## Analytics
+- Track usage events: generate, rewrite, save, export.
+- API `GET /api/analytics` trả summary theo user.
 
-### 🔧 **Tech & Skills**  
-📡 **Networking & Telecommunications:** Cisco, RF, Optical Fiber  
-🔌 **Embedded Systems:** Arduino, ESP8266, Raspberry Pi  
-💻 **Programming:** Python, C, MATLAB  
-📊 **Signal Processing & IoT:** DSP, Wireless Protocols, IoT Security  
+## Cost Optimization
+- Semantic cache key theo `topic + style + slide_count + language + preference`.
+- Nếu trùng truy vấn sẽ trả cache.
 
-### 📫 **Let's Connect!**  
-🌐 Linktree: [linktr.ee/nguyenhung0905](https://linktr.ee/nguyenhung0905)  
-📩 Email: _nguyenhung09052002@gmail.com_  
+## Preference Learning
+- Bảng `user_preferences` lưu style/tone/avg slide length.
+- Pipeline inject preference vào generation style.
 
----
+## New APIs
+- `POST /api/auth/login`
+- `POST /api/generate`
+- `POST /api/generate/stream`
+- `POST /api/rewrite`
+- `POST /api/save`
+- `GET /api/projects`
+- `GET /api/project/{id}`
+- `GET /api/share/{id}`
+- `GET /api/analytics`
 
-✨ **"Bringing connectivity & intelligence to the future of communications."** 🚀  
+## Realtime Collaboration
+- WebSocket `/ws/projects/{project_id}`
+- Live sync + shared cursors + basic conflict resolution (last-write-wins).
 
+## Deployment
+- `Dockerfile`
+- `docker-compose.yml`
+- `deploy/nginx.conf`
+- GitHub Actions CI: compile backend + docker build
+
+## Frontend Conversion
+- Added landing page with CTA at `frontend/src/pages/landing/LandingPage.tsx`.
+
+## Run locally
+```bash
+cd backend
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+uvicorn main:app --reload --port 8000
+
+cd ../frontend
+npm install
+npm run dev
+```

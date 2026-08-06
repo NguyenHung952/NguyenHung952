@@ -4,7 +4,7 @@
 📍 Ho Chi Minh City, Vietnam  
 📧 nguyenhung09052002@gmail.com  
 📞 0969894095  
-🔗 Portfolio: https://linktr.ee/nguyenhung0905  
+🔗 Portfolio: https://nguyenhung09052002.wordpress.com/
 
 ---
 
